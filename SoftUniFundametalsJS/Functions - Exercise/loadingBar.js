@@ -10,4 +10,4 @@ function loadingBar(percentage) {
         console.log(`Still loading...`);
     }
 }
-loadingBar(100);
+loadingBar(10);
