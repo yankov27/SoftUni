@@ -1,9 +1,7 @@
 function cityPrinter(city){
 
-    let cityEntries = Object.entries(city);
-
-    for(let [cityKey, cityValue] of cityEntries) {
-        console.log(`${cityKey} -> ${cityValue}`);
+    for(let key of Object.keys(city)) {
+        console.log(`${key} -> ${city[key]}`)
     };
 };
 cityPrinter({
